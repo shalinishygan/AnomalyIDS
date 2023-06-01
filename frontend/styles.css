@@ -1,0 +1,475 @@
+/* Global Styles */
+
+/* Reset default styles */
+body, html, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Add your global styles here */
+/* Global Styles */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-heading p {
+    font-size: 18px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Add your own custom global styles below this line */
+
+
+/* Header and Navigation */
+
+/* Add your header and navigation styles here */
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+}
+
+.navbar-nav li:first-child {
+    margin-left: 0;
+}
+
+.navbar-nav li a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+    color: #007bff;
+}
+
+
+/* Hero Section */
+
+#hero {
+    background-image: url("path/to/your-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* About Section */
+
+#about {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#about .img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+
+/* Features Section */
+
+#features {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+}
+
+#features h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature {
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+/* Services Section */
+
+#services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+#services h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service {
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+/* Team Section */
+
+#team {
+    padding: 80px 0;
+}
+
+#team h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+
+/* Technology Stack Section */
+
+#technology {
+    padding: 80px 0;
+}
+
+#technology h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.technology-item {
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.technology-item i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.technology-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.technology-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+/* Contact Section */
+
+#contact {
+    padding: 80px 0;
+}
+
+#contact h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contact form {
+    margin-bottom: 30px;
+}
+
+#contact form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact form .form-control {
+    border-radius: 4px;
+}
+
+#contact form textarea {
+    height: 150px;
+}
+
+#contact form button {
+    padding: 12px 24px;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+    text-align: right;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-links li:first-child {
+    margin-left: 0;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}
+
+
+/* Add any additional styles as needed */
+
